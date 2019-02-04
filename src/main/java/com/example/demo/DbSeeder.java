@@ -19,14 +19,14 @@ public DbSeeder(UserRepository userRepository){
 }
     @Override
     public void run(String... args) throws Exception {
-     User oussama =new User("oussama","je suis ouss");
-     User adel=new User("adel","huumm");
+     //User oussama =new User("oussama","je suis ouss");
+     //User adel=new User("adel","huumm");
 
-        this.userRepository.deleteAll();
+       // this.userRepository.deleteAll();
 
-        List<User> users=Arrays.asList(oussama,adel);
+       // List<User> users=Arrays.asList(oussama,adel);
 
-        this.userRepository.saveAll(users);
+       // this.userRepository.saveAll(users);
 
 
 
